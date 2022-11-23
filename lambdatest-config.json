@@ -1,0 +1,38 @@
+{
+  "lambdatest_auth": {
+    "username": "prithiviraj1991",
+    "access_key": "NLPh7qfta17Ueyte8Tnke4kpYzE1q4UD8PNp6xRGX3U2l6hJbS"
+  },
+  "browsers": [
+    {
+      "browser": "Chrome",
+      "platform": "Windows 10",
+      "versions": ["latest-1"]
+    },
+    {
+      "browser": "Firefox",
+      "platform": "macOS Catalina",
+      "versions": ["latest-1"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "cypress.json",
+    "reporter_config_file": "base_reporter_config.json",
+    "build_name": "Prithiviraj-lambda-certification",
+    "parallels": 1,
+    "specs": "./cypress/integration/*.spec.js",
+    "ignore_files": "",
+    "network": false,
+    "headless": false,
+    "npm_dependencies": {
+      "@cypress-audit/lighthouse": "^1.3.1",
+      "@cypress-audit/pa11y": "^1.3.1",
+      "cypress": "9.6.0",
+      "cypress-audit": "^1.1.0"
+    }
+  },
+  "tunnel_settings": {
+    "tunnel": false,
+    "tunnel_name": null
+  }
+}
